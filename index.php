@@ -7,6 +7,14 @@
     </head>
 
     <body>
+        <form action="./server.php" method="POST">
+            <input type="text" name="badWordInput">
 
+            <input type="text" name="sentenceInput">
+
+            <button type="submit">
+                BEEP!
+            </button>
+        </form>
     </body>
 </html>
